@@ -38,8 +38,8 @@ public class Main {
         }
 
         // Marcar algunas como completadas
-        l1.getTareas().get(1).markCompleted(); // entregar tarea
-        l2.getTareas().get(1).markCompleted(); // enviar reporte
+        l1.getTareas().get(1).markCompleted();
+        l2.getTareas().get(1).markCompleted();
 
         System.out.println("--- Todas las tareas hechas ---");
         for (Tarea t : app.tareasHechas()) {
