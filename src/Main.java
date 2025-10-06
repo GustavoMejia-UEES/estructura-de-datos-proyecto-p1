@@ -3,6 +3,7 @@ import model.App;
 import model.ToDos;
 import model.Tarea;
 import model.Priority;
+import model.TareaPriorityComparator;
 
 public class Main {
 
@@ -26,9 +27,14 @@ public class Main {
             System.out.println(x);
         }
 
-        System.out.println("--- Tareas de prioridad HIGH en todas las listas ---");
-        for (Tarea t : app.tareasDePrioridad(Priority.HIGH)) {
-            System.out.println(t);
+        System.out.println("--- Tareas de prioridad HIGH en todas las listas (usando Comparator/find) ---");
+        Tarea sample = new Tarea(0, "", "", Priority.HIGH, "");
+        TareaPriorityComparator comp = new TareaPriorityComparator();
+        for (ToDos list : app.getListas()) {
+            java.util.List<Tarea> found = list.find(comp, sample);
+            for (Tarea t : found) {
+                System.out.println(t);
+            }
         }
 
         // Marcar algunas como completadas

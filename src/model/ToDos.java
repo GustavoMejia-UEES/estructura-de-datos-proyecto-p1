@@ -97,6 +97,19 @@ public class ToDos {
         return result;
     }
 
+    // Find using a Comparator and a sample Tarea; uses iterator
+    public List<Tarea> find(java.util.Comparator<Tarea> comp, Tarea sample) {
+        List<Tarea> res = new ArrayList<>();
+        java.util.ListIterator<Tarea> it = tareas.listIterator();
+        while (it.hasNext()) {
+            Tarea t = it.next();
+            if (comp.compare(t, sample) == 0) {
+                res.add(t);
+            }
+        }
+        return res;
+    }
+
     public String toString() {
         String s = "ToDos: " + name + " (creación: " + creationDate + ")\n";
         for (int i = 0; i < tareas.size(); i++) {
