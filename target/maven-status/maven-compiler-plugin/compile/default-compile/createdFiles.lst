@@ -4,6 +4,7 @@ org\uees\model\gustavo\GustavoTaskQueue.class
 org\uees\model\api\Task.class
 org\uees\model\gustavo\GustavoToDos.class
 org\uees\model\api\App.class
+org\uees\model\emilio\EmilioTask$Priority.class
 org\uees\model\leonidas\LeonidasApp.class
 org\uees\model\api\TaskQueue.class
 org\uees\model\emilio\EmilioToDos.class
@@ -23,7 +24,9 @@ org\uees\model\leonidas\LeonidasTaskQueue.class
 org\uees\MainApp.class
 org\uees\model\emilio\EmilioTaskStack.class
 org\uees\model\emilio\EmilioApp.class
+org\uees\model\emilio\EmilioTask$TaskStatus.class
 org\uees\model\emilio\EmilioTaskQueue.class
+org\uees\model\emilio\EmilioTaskComparator$SortType.class
 org\uees\model\leonidas\LeonidasTaskComparator.class
 org\uees\model\api\Task$Priority.class
 org\uees\model\leonidas\LeonidasTaskStack.class
