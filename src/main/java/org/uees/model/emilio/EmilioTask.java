@@ -147,7 +147,7 @@ public class EmilioTask {
             parts[1],
             LocalDateTime.parse(parts[2], formatter),
             Priority.valueOf(parts[3]),
-            parts.length > 7 ? parts[7] : "Default"
+            parts.length >= 8 ? parts[7] : "Default"
         );
         
         task.status = TaskStatus.valueOf(parts[4]);

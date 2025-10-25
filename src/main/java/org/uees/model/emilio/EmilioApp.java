@@ -151,14 +151,13 @@ public class EmilioApp {
                     String taskData = line.substring(8);
                     EmilioTask task = EmilioTask.fromFileString(taskData);
                     if (task != null) {
-                        todoList.createTask(task.getDescription(), task.getDueDate(), task.getPriority());
+                        todoList.restoreTask(task);
                     }
                 } else if (line.startsWith("COMPLETED:")) {
                     String taskData = line.substring(10);
                     EmilioTask task = EmilioTask.fromFileString(taskData);
                     if (task != null) {
-                        EmilioTask newTask = todoList.createTask(task.getDescription(), task.getDueDate(), task.getPriority());
-                        todoList.markTaskAsCompleted(newTask.getId());
+                        todoList.restoreTask(task);
                     }
                 }
             }

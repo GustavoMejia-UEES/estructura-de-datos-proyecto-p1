@@ -61,8 +61,12 @@ public class EmilioTaskQueue {
         
         if (index < heap.size()) {
             heap.set(index, lastElement);
-            heapifyUp(index);
-            heapifyDown(index);
+            
+            if (index > 0 && comparator.compare(heap.get(index), heap.get((index - 1) / 2)) > 0) {
+                heapifyUp(index);
+            } else {
+                heapifyDown(index);
+            }
         }
         
         return true;

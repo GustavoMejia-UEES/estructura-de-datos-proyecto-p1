@@ -32,6 +32,17 @@ public class EmilioToDos {
         return task;
     }
     
+    public void restoreTask(EmilioTask task) {
+        if (task.getStatus() == EmilioTask.TaskStatus.PENDING) {
+            pendingTasks.enqueue(task);
+        } else {
+            completedTasks.push(task);
+        }
+        if (task.getId() >= nextTaskId) {
+            nextTaskId = task.getId() + 1;
+        }
+    }
+    
     public boolean markTaskAsCompleted(int taskId) {
         List<EmilioTask> allPending = pendingTasks.getAllSorted();
         for (EmilioTask task : allPending) {
