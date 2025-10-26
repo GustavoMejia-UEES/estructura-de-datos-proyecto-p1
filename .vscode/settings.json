@@ -1,3 +1,31 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "css.lint.vendorPrefix": "ignore",
+    "css.lint.unknownVendorSpecificProperties": "ignore",
+    "css.validate": false,
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.runtimes": [],
+    "java.warnings.nullAnalysis": false,
+    "java.warnings.unreachableCode": false,
+    "java.warnings.unusedLocal": false,
+    "java.warnings.unusedParameter": false,
+    "java.warnings.unusedImport": false,
+    "java.warnings.rawTypes": false,
+    "java.warnings.unchecked": false,
+    "java.warnings.serial": false,
+    "java.warnings.deprecation": false,
+    "java.warnings.fallthrough": false,
+    "java.warnings.finally": false,
+    "java.warnings.hiding": false,
+    "java.warnings.incomplete-switch": false,
+    "java.warnings.nls": false,
+    "java.warnings.static-access": false,
+    "java.warnings.synthetic-access": false,
+    "java.warnings.unqualified-field-access": false,
+    "java.warnings.varargs": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "never"
+    },
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "java.import.gradle.offline.enabled": true
 }

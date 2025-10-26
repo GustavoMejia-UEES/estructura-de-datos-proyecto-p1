@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Button?>
+
+<HBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.uees.controller.TaskFormController"
+      stylesheets="/css/taskform.css"
+      spacing="0" alignment="CENTER" prefWidth="540" prefHeight="340" styleClass="form-root">
+    <VBox alignment="CENTER" style="-fx-background-color: #fff; -fx-pref-width: 220; -fx-min-width: 220; -fx-max-width: 220; -fx-pref-height: 340;">
+        <ImageView fx:id="taskImg" fitWidth="170" fitHeight="320" preserveRatio="true" style="-fx-alignment: center;"/>
+    </VBox>
+    <VBox spacing="22" alignment="CENTER" style="-fx-padding: 0 0 0 32;">
+        <Label text="Nueva Tarea" styleClass="form-title"/>
+        <TextField fx:id="descriptionField" promptText="Descripción de la tarea" styleClass="form-input"/>
+        <DatePicker fx:id="dueDatePicker" promptText="Fecha límite" styleClass="form-input"/>
+        <ComboBox fx:id="priorityCombo" promptText="Prioridad" styleClass="form-input"/>
+        <HBox spacing="18" alignment="CENTER">
+            <Button text="Crear" fx:id="createBtn" styleClass="form-button"/>
+            <Button text="Cancelar" fx:id="cancelBtn" styleClass="form-button"/>
+        </HBox>
+    </VBox>
+</HBox>

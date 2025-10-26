@@ -1,0 +1,273 @@
+/* ComboBox - área de texto */
+.combo-box, .combo-box-base, .main-input-small {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #f8f9fa);
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-padding: 0;
+    -fx-font-size: 15px;
+    -fx-border-color: #d1d9e6;
+    -fx-border-width: 1.5px;
+    -fx-effect: dropshadow(gaussian, rgba(71,135,237,0.1), 2, 0, 0, 1);
+    -fx-min-width: 140px;
+    -fx-max-width: 140px;
+    -fx-text-fill: #223344;
+}
+
+/* ComboBox - área de texto cuando está enfocado */
+.combo-box:focused, .combo-box-base:focused, .main-input-small:focused {
+    -fx-border-color: #4787ED;
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #f0f4ff);
+    -fx-effect: dropshadow(gaussian, rgba(71,135,237,0.3), 3, 0, 0, 1);
+}
+
+/* ComboBox - texto (input) */
+.combo-box .text, .combo-box-base .text {
+    -fx-background-color: transparent;
+    -fx-fill: #223344;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 11 15 11 15;
+}
+
+/* ComboBox - botón de flecha */
+.combo-box .arrow-button, .combo-box-base .arrow-button {
+    -fx-background-color: linear-gradient(to bottom, #5a94f5, #4787ED);
+    -fx-background-radius: 0 12 12 0;
+    -fx-padding: 0 15 0 15;
+    -fx-border-width: 0;
+}
+
+/* ComboBox - icono de flecha */
+.combo-box .arrow, .combo-box-base .arrow {
+    -fx-background-color: transparent;
+    -fx-shape: "M0,0 L1,0 L0.5,1 Z";
+    -fx-scale-shape: false;
+    -fx-padding: 0;
+    -fx-background-insets: 0;
+    -fx-background-repeat: no-repeat;
+    -fx-color: #fff;
+}
+
+/* ComboBox - label, para evitar fondo azul */
+.combo-box .label, .combo-box-base .label {
+    -fx-background-color: transparent;
+    -fx-text-fill: #223344;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+/* ComboBox - lista desplegable */
+.combo-box-popup .list-view, .combo-box-popup .list-cell {
+    -fx-background-color: #fff;
+}
+.combo-box-popup .list-cell {
+    -fx-text-fill: #223344;
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+}
+.combo-box-popup .list-cell:selected, .combo-box-popup .list-cell:focused, .combo-box-popup .list-cell:selected:focused {
+    -fx-background-color: #E3ECFC;
+    -fx-text-fill: #4787ED;
+}
+
+/* TextField para buscador */
+.text-field {
+    -fx-background-color: #F8F9FA;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-padding: 11 15 11 15;
+    -fx-font-size: 15px;
+    -fx-border-color: #4787ED;
+    -fx-border-width: 1.5px;
+    -fx-effect: dropshadow(gaussian, #E0E0E0, 1, 0, 0, 1);
+    -fx-text-fill: #223344;
+}
+.text-field:focused {
+    -fx-border-color: #4787ED;
+    -fx-background-color: #fff;
+}
+
+/* Botones pequeños y principales */
+.main-button-small {
+    -fx-background-color: #4787ED;
+    -fx-text-fill: #fff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 14;
+    -fx-padding: 8 20 8 20;
+    -fx-min-width: 110px;
+    -fx-max-width: 140px;
+    -fx-effect: dropshadow(gaussian, #E0E0E0, 1, 0, 0, 1);
+    -fx-cursor: hand;
+}
+.main-button-small:pressed { 
+    -fx-background-color: #3870ca; 
+}
+
+.main-button-expanded {
+    -fx-background-color: #4787ED;
+    -fx-text-fill: #fff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 14;
+    -fx-padding: 8 20 8 20;
+    -fx-min-width: 160px;
+    -fx-pref-width: -1;
+    -fx-max-width: -1;
+    -fx-effect: dropshadow(gaussian, #E0E0E0, 1, 0, 0, 1);
+    -fx-cursor: hand;
+}
+.main-button-expanded:pressed { 
+    -fx-background-color: #3870ca; 
+}
+
+.action-main {
+    -fx-background-color: #4787ED;
+    -fx-text-fill: #fff;
+    -fx-font-size: 17px;
+    -fx-font-weight: 700;
+    -fx-background-radius: 26;
+    -fx-padding: 14 44 14 44;
+    -fx-pref-width: region;
+    -fx-effect: dropshadow(three-pass-box, #E3ECFC, 2, 0, 0, 2);
+    -fx-cursor: hand;
+}
+.action-main:pressed { 
+    -fx-background-color: #3870ca; 
+}
+
+/* ListView y paneles iguales que antes */
+.organizer-root {
+    -fx-background-color: #F8F9FB;
+    -fx-font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+.header-panel {
+    -fx-background-color: #fff;
+    -fx-padding: 12 38 12 38;
+    -fx-spacing: 18;
+    -fx-border-color: #E3ECFC;
+    -fx-border-width: 0 0 2px 0;
+}
+.app-title {
+    -fx-font-size: 27px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #4787ED;
+    -fx-padding: 0 0 0 18;
+}
+.lists-panel {
+    -fx-background-color: #fff;
+    -fx-padding: 32 18 16 18;
+    -fx-border-radius: 16;
+    -fx-border-color: #E3ECFC;
+    -fx-border-width: 0 2px 0 0;
+}
+.lists-panel .panel-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4787ED;
+    -fx-padding: 0 0 18 0;
+}
+.main-list {
+    -fx-background-color: #F8F9FB;
+    -fx-border-width: 1.5px;
+    -fx-border-color: #E3ECFC;
+    -fx-padding: 6;
+    -fx-background-radius: 14;
+    -fx-font-size: 17px;
+}
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #223344;
+    -fx-font-size: 17px;
+    -fx-padding: 8 12 8 12;
+}
+.list-cell:selected, .list-cell:focused, .list-cell:selected:focused {
+    -fx-background-color: #4787ED;
+    -fx-text-fill: #fff;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, #E3ECFC, 1, 0, 0, 1);
+    -fx-font-weight: bold;
+}
+.tasks-panel {
+    -fx-background-color: #fff;
+    -fx-padding: 38 52 16 52;
+    -fx-border-radius: 16;
+}
+.tasks-panel .panel-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4787ED;
+    -fx-padding: 16 0 18 0;
+}
+.task-card {
+    -fx-background-color: #fff;
+    -fx-border-radius: 18;
+    -fx-background-radius: 18;
+    -fx-border-color: #4787ED;
+    -fx-border-width: 2px;
+    -fx-effect: dropshadow(two-pass-box, #E3ECFC, 2, 0, 0, 2);
+    -fx-padding: 14 22 14 22;
+    -fx-margin: 8 0 10 0;
+}
+.task-desc {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #223344;
+}
+.task-date {
+    -fx-font-size: 15px;
+    -fx-text-fill: #888;
+    -fx-padding: 0 0 2 0;
+}
+.task-priority {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+.task-btn {
+    -fx-background-color: #4787ED;
+    -fx-text-fill: #fff;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 6 20 6 20;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, #E3ECFC, 1, 0, 0, 1);
+    -fx-margin: 0 8 0 0;
+}
+.task-btn:pressed { -fx-background-color: #3870ca; }
+.completed-tasks-panel {
+    -fx-background-color: #F8F9FB;
+    -fx-padding: 30 52 30 52;
+    -fx-border-radius: 16;
+    -fx-border-width: 2px 0 0 0;
+    -fx-border-color: #E3ECFC;
+}
+.completed-tasks-panel .panel-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4787ED;
+    -fx-padding: 16 0 18 0;
+}
+.completed-tasks-panel .main-list {
+    -fx-background-color: #fff;
+    -fx-border-radius: 14;
+    -fx-font-size: 18px;
+}
+.completed-tasks-panel .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #223344;
+    -fx-font-size: 18px;
+}
+.completed-tasks-panel .main-button-small {
+    -fx-background-color: #4787ED;
+    -fx-text-fill: #fff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 14;
+    -fx-padding: 14 44 14 44;
+    -fx-margin: 0 12 0 0;
+    -fx-pref-width: region;
+    -fx-cursor: hand;
+}
+.completed-tasks-panel .main-button-small:pressed { -fx-background-color: #3870ca; }

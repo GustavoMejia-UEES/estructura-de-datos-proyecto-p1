@@ -1,29 +1,21 @@
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\emilio\EmilioTaskQueue.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\gustavo\GustavoTaskStack.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\emilio\EmilioApp.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\emilio\EmilioTask.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\leonidas\LeonidasTask.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\leonidas\LeonidasTaskStack.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\emilio\EmilioToDos.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\emilio\EmilioTaskStack.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\api\TaskQueue.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\api\ToDos.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\api\TaskComparator.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\gustavo\GustavoTaskQueue.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\gustavo\GustavoApp.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\App.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\api\TaskStack.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\emilio\EmilioTaskComparator.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\leonidas\LeonidasToDos.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\leonidas\LeonidasTaskQueue.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\module-info.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\gustavo\GustavoTask.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\MainApp.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\gustavo\GustavoTaskComparator.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\PrimaryController.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\api\Task.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\leonidas\LeonidasTaskComparator.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\SecondaryController.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\leonidas\LeonidasApp.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\api\App.java
-C:\Users\emili\CascadeProjects\estructura-de-datos-proyecto-p1\src\main\java\org\uees\model\gustavo\GustavoToDos.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\view\TaskCell.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\view\TasksPanel.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\model\TasksModels\Task.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\view\HeaderPanel.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\view\MainApp.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\view\TaskFormView.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\controller\TaskFormController.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\controller\PrimaryController.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\controller\TaskController.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\view\TaskOrganizer.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\model\TasksModels\TaskComparator.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\model\TaskManager.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\model\TasksModels\App.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\model\TasksModels\TaskQueue.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\model\TasksModels\TaskStack.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\view\ActionsPanel.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\view\ListsPanel.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\module-info.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\model\TasksModels\ToDos.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\controller\SplashController.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\view\CompletedPanel.java

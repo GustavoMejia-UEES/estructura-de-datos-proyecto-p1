@@ -1,0 +1,55 @@
+.root {
+    -fx-background-color: #F5F9F7;
+    -fx-font-family: 'Segoe UI', 'Arial', sans-serif;
+    -fx-text-fill: #23303B;
+}
+
+/* Encabezado */
+.header {
+    -fx-background-color: linear-gradient(to right, #65C1CD, #60A7E0);
+    -fx-padding: 24 32 24 32;
+}
+.app-title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #23303B;
+    -fx-effect: dropshadow(gaussian, #65C1CD, 2, 0.2, 0, 2);
+}
+
+/* Botón principal */
+.button {
+    -fx-background-color: #D9D46A;
+    -fx-text-fill: #23303B;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 8 24 8 24;
+    -fx-font-size: 16px;
+    -fx-effect: dropshadow(gaussian, rgba(101,193,205,0.2), 3,0,0,1);
+}
+.button:hover {
+    -fx-background-color: #60A7E0;
+    -fx-text-fill: #fff;
+}
+
+/* Paneles */
+.actions-panel, .tasks-panel, .completed-tasks-panel {
+    -fx-background-color: #fff;
+    -fx-border-radius: 16;
+    -fx-background-radius: 16;
+    -fx-padding: 24;
+    -fx-spacing: 12;
+    -fx-effect: dropshadow(gaussian, rgba(101,193,205,0.08), 8,0,0,2);
+}
+
+/* ListView */
+.list-view {
+    -fx-background-color: #F5F9F7;
+    -fx-control-inner-background: #fff;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+/* Splash logo effect */
+.image-view {
+    -fx-effect: dropshadow(gaussian, #65C1CD, 18, 0.4, 0, 4);
+}

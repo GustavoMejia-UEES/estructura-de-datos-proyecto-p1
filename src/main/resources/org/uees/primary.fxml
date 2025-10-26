@@ -1,16 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.control.Button?>
-<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ComboBox?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.uees.PrimaryController">
-   <children>
-      <Label text="Primary View" />
-      <Button fx:id="primaryButton" text="Switch to Secondary View" onAction="#switchToSecondary"/>
-   </children>
-   <padding>
-      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-   </padding>
-</VBox>
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.uees.controller.PrimaryController"
+    stylesheets="/css/combo_box_styles3.css" prefWidth="1280" prefHeight="832">
+
+    <top>
+        <HBox alignment="CENTER_LEFT" spacing="18" styleClass="header-panel" prefHeight="80">
+            <ImageView fx:id="logoImg" fitWidth="56" fitHeight="56"/>
+            <Label text="PENDO - Task Organizer" styleClass="app-title"/>
+        </HBox>
+    </top>
+
+    <left>
+        <VBox spacing="22" alignment="TOP_CENTER" styleClass="lists-panel" prefWidth="320">
+            <Label text="Mis Listas" styleClass="panel-title"/>
+            <HBox spacing="24">
+                <Button text="Nuevo" fx:id="btnNuevaLista" styleClass="main-button-small"/>
+                <Button text="Eliminar" fx:id="btnEliminarLista" styleClass="main-button-small"/>
+            </HBox>
+            <ListView fx:id="listasView" styleClass="main-list" prefHeight="380"/>
+        </VBox>
+    </left>
+
+    <center>
+        <VBox spacing="18" styleClass="tasks-panel">
+            <HBox spacing="18" alignment="CENTER_LEFT">
+                <TextField fx:id="searchField" promptText="Buscar tareas..." styleClass="main-input-small"/>
+                <ComboBox fx:id="comboPrioridad" promptText="Prioridad" styleClass="main-input-small"/>
+                <ComboBox fx:id="comboRangoPendientes" promptText="Rango" styleClass="main-input-small"/>
+                <Button text="Buscar" fx:id="btnBuscar" styleClass="main-button-small"/>
+            </HBox>
+            <HBox spacing="18" alignment="CENTER_LEFT">
+                <Label text="Tareas incompletas" styleClass="panel-title"/>
+                <Button text="Crear Tarea" fx:id="btnCrearTarea" styleClass="main-button-small"/>
+            </HBox>
+            <ListView fx:id="listTareasIncompletas" styleClass="main-list" prefHeight="260"/>
+        </VBox>
+    </center>
+
+    <bottom>
+        <VBox spacing="16" styleClass="completed-tasks-panel" prefHeight="320">
+            <Label text="Tareas completadas &amp; utilidades" styleClass="panel-title"/>
+            <HBox spacing="12" alignment="CENTER_LEFT">
+                <ComboBox fx:id="comboRangoCompletadas" promptText="Rango" styleClass="main-input-small"/>
+            </HBox>
+            <ListView fx:id="listTareasCompletadas" styleClass="main-list" prefHeight="200"/>
+            <HBox spacing="24" alignment="CENTER_LEFT">
+                <Button text="Exportar historial" fx:id="btnExportarHistorialBottom" styleClass="main-button-small"/>
+                <Button text="Limpiar completadas" fx:id="btnLimpiarCompletadasBottom" styleClass="main-button-small"/>
+            </HBox>
+        </VBox>
+    </bottom>
+</BorderPane>
