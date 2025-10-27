@@ -50,16 +50,13 @@
 
 ## ⚡ Instalación y Ejecución
 
-### **Método 1: Script Automático (Recomendado)**
+### **Método 1: Script Simple (Recomendado)**
 
 ```bash
-# Windows
-.\run-pendo.bat
+# Windows - La forma más fácil:
+.\ejecutar.bat
 
-# El script verifica automáticamente:
-# - Instalación de Java y Maven
-# - Compila el proyecto
-# - Ejecuta la aplicación
+# Solo ejecuta: mvn clean javafx:run
 ```
 
 ### **Método 2: Manual con Maven**
@@ -69,20 +66,22 @@
 git clone [URL_DEL_REPOSITORIO]
 cd todo-list-app
 
-# 2. Compilar el proyecto
-mvn clean compile
+# 2. Compilar y ejecutar directamente
+mvn clean javafx:run
 
-# 3. Ejecutar la aplicación
+# O paso a paso:
+mvn clean compile
 mvn javafx:run
 ```
 
-### **Método 3: Generar Ejecutable (.exe)**
+### **Método 3: Scripts Avanzados (Opcionales)**
 
 ```bash
-# Windows - Requiere Java 17+
-.\create-exe.bat
+# Script con diagnósticos completos
+.\run-pendo.bat
 
-# El ejecutable se creará en: dist/PENDO-TaskOrganizer.exe
+# Generar ejecutable (.exe) - Requiere Java 17+
+.\create-exe.bat
 ```
 
 ---

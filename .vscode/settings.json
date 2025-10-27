@@ -1,5 +1,5 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.configuration.updateBuildConfiguration": "automatic",
     "css.lint.vendorPrefix": "ignore",
     "css.lint.unknownVendorSpecificProperties": "ignore",
     "css.validate": false,
