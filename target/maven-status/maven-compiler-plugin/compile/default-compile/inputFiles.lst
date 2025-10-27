@@ -1,5 +1,6 @@
 C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\view\TaskCell.java
 C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\view\TasksPanel.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\view\CompletedByDateView.java
 C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\model\TasksModels\Task.java
 C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\view\HeaderPanel.java
 C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\view\MainApp.java
@@ -11,6 +12,7 @@ C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de
 C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\model\TasksModels\TaskComparator.java
 C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\model\TaskManager.java
 C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\model\TasksModels\App.java
+C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\controller\CompletedByDateController.java
 C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\model\TasksModels\TaskQueue.java
 C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\model\TasksModels\TaskStack.java
 C:\Users\ASUS\Documents\Estudios\UEES\Semestres\5TO SEMESTRE O2 25\Estructura de Datos\todo-list-app\src\main\java\org\uees\view\ActionsPanel.java

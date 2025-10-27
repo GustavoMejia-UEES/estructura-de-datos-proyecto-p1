@@ -58,6 +58,7 @@ public class TaskController {
         organizer.tasksPanel.btnBuscar.setOnAction(_ -> buscarTareas());
         organizer.completedPanel.btnLimpiarCompletadas.setOnAction(_ -> limpiarCompletadas());
         organizer.completedPanel.btnExportarHistorial.setOnAction(_ -> exportarHistorial());
+        organizer.completedPanel.btnVerPorFechas.setOnAction(_ -> abrirVentanaPorFechas());
 
         organizer.tasksPanel.listTareasIncompletas.setItems(tareasPendientes);
         organizer.tasksPanel.listTareasIncompletas.setCellFactory(listView -> new TaskCell(this, false));
@@ -282,5 +283,10 @@ public class TaskController {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    private void abrirVentanaPorFechas() {
+        CompletedByDateController controller = new CompletedByDateController(appBackend);
+        controller.show();
     }
 }

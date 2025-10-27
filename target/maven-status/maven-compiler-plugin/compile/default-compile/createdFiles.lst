@@ -1,9 +1,12 @@
 org\uees\model\TasksModels\TaskComparator.class
 org\uees\model\TasksModels\Task.class
 org\uees\model\TasksModels\TaskQueue.class
+org\uees\controller\CompletedByDateController$1.class
 org\uees\model\TasksModels\TaskStack.class
+org\uees\controller\CompletedByDateController.class
 org\uees\view\CompletedPanel.class
 org\uees\view\TasksPanel.class
+org\uees\view\CompletedByDateView.class
 org\uees\model\TasksModels\TaskComparator$SortType.class
 org\uees\model\TasksModels\Task$Priority.class
 org\uees\view\ActionsPanel.class
@@ -20,5 +23,6 @@ org\uees\view\TaskCell.class
 org\uees\view\ListsPanel.class
 org\uees\model\TasksModels\App.class
 org\uees\view\TaskFormView.class
+org\uees\controller\CompletedByDateController$2.class
 org\uees\view\TaskOrganizer.class
 org\uees\controller\SplashController.class

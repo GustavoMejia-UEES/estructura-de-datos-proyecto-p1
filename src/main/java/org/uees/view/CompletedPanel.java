@@ -16,6 +16,7 @@ public class CompletedPanel extends VBox {
     public final ListView<Task> listTareasCompletadas = new ListView<>();
     public final Button btnLimpiarCompletadas = new Button("Limpiar completadas");
     public final Button btnExportarHistorial = new Button("Exportar historial");
+    public final Button btnVerPorFechas = new Button("Ver por fechas");
 
     public CompletedPanel() {
         super(16);
@@ -30,8 +31,9 @@ public class CompletedPanel extends VBox {
 
         btnLimpiarCompletadas.getStyleClass().add("main-button-expanded");
         btnExportarHistorial.getStyleClass().add("main-button-expanded");
+        btnVerPorFechas.getStyleClass().add("main-button-expanded");
 
-        HBox btnBox = new HBox(24, btnExportarHistorial, btnLimpiarCompletadas);
+        HBox btnBox = new HBox(24, btnExportarHistorial, btnLimpiarCompletadas, btnVerPorFechas);
         btnBox.setAlignment(Pos.CENTER_LEFT);
 
         this.getChildren().addAll(title, listTareasCompletadas, btnBox);
